@@ -3,7 +3,7 @@
 	byeSpeaker.speak=function(name){}
 	var speakWord = "Good Bye";
 	byeSpeaker.speak=function() {
-  console.log(speakWord + " " +name);
+  console.log(speakWord + " " +byeSpeaker.name);
 }
 window.byeSpeaker=byeSpeaker;
 })(window);
